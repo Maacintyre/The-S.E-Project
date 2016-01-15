@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="40cebf26-ddcd-432d-ab67-1a6d0db6c3e7" name="Default" comment="" />
+    <list default="true" id="40cebf26-ddcd-432d-ab67-1a6d0db6c3e7" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="The-S.E-Project.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,14 +29,18 @@
       <file leaf-file-name="Wordsearch.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Wordsearch.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.20731707" vertical-offset="0" max-vertical-offset="816">
-              <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.1904" vertical-offset="0" max-vertical-offset="625">
+              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
               <folding>
-                <element signature="e#157#225#0" expanded="false" />
-                <element signature="e#263#423#0" expanded="false" />
-                <element signature="e#468#670#0" expanded="false" />
-                <element signature="e#715#911#0" expanded="false" />
-                <element signature="e#1343#1369#0" expanded="false" />
+                <element signature="e#336#484#0" expanded="false" />
+                <element signature="e#517#835#0" expanded="false" />
+                <element signature="e#876#1159#0" expanded="false" />
+                <element signature="e#1199#1494#0" expanded="false" />
+                <element signature="e#1540#2098#0" expanded="false" />
+                <element signature="e#2128#2361#0" expanded="false" />
+                <element signature="e#2386#2605#0" expanded="false" />
+                <element signature="e#2628#2718#0" expanded="false" />
+                <element signature="e#2765#3038#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -43,6 +49,13 @@
     </leaf>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="maacintyre" />
+        <option value="lozan42@aol.com" />
+        <option value="Pete Lozano" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -69,7 +82,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -80,29 +93,7 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="The-S.E-Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="The-S.E-Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="The-S.E-Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="options.lastSelected" value="vcs.Git" />
@@ -279,22 +270,30 @@
       <option name="number" value="Default" />
       <updated>1452631919316</updated>
     </task>
+    <task id="LOCAL-00001" summary="This code is more streamlined and more user friendly. There are only two functions that need to be used createWordsearch() and printTable()">
+      <created>1452817324816</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1452817324816</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32924962" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296131" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -321,6 +320,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="This code is more streamlined and more user friendly. There are only two functions that need to be used createWordsearch() and printTable()" />
+    <option name="LAST_COMMIT_MESSAGE" value="This code is more streamlined and more user friendly. There are only two functions that need to be used createWordsearch() and printTable()" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -331,14 +332,18 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Wordsearch.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#157#225#0" expanded="false" />
-            <element signature="e#263#423#0" expanded="false" />
-            <element signature="e#468#670#0" expanded="false" />
-            <element signature="e#715#911#0" expanded="false" />
-            <element signature="e#1343#1369#0" expanded="false" />
+            <element signature="e#336#484#0" expanded="false" />
+            <element signature="e#517#835#0" expanded="false" />
+            <element signature="e#876#1159#0" expanded="false" />
+            <element signature="e#1199#1494#0" expanded="false" />
+            <element signature="e#1540#2098#0" expanded="false" />
+            <element signature="e#2128#2361#0" expanded="false" />
+            <element signature="e#2386#2605#0" expanded="false" />
+            <element signature="e#2628#2718#0" expanded="false" />
+            <element signature="e#2765#3038#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -348,11 +353,33 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#157#225#0" expanded="false" />
-            <element signature="e#263#423#0" expanded="false" />
-            <element signature="e#468#670#0" expanded="false" />
-            <element signature="e#715#911#0" expanded="false" />
-            <element signature="e#1343#1369#0" expanded="false" />
+            <element signature="e#336#484#0" expanded="false" />
+            <element signature="e#517#835#0" expanded="false" />
+            <element signature="e#876#1159#0" expanded="false" />
+            <element signature="e#1199#1494#0" expanded="false" />
+            <element signature="e#1540#2098#0" expanded="false" />
+            <element signature="e#2128#2361#0" expanded="false" />
+            <element signature="e#2386#2605#0" expanded="false" />
+            <element signature="e#2628#2718#0" expanded="false" />
+            <element signature="e#2765#3038#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wordsearch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#336#484#0" expanded="false" />
+            <element signature="e#517#835#0" expanded="false" />
+            <element signature="e#876#1159#0" expanded="false" />
+            <element signature="e#1199#1494#0" expanded="false" />
+            <element signature="e#1540#2098#0" expanded="false" />
+            <element signature="e#2128#2361#0" expanded="false" />
+            <element signature="e#2386#2605#0" expanded="false" />
+            <element signature="e#2628#2718#0" expanded="false" />
+            <element signature="e#2765#3038#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -362,25 +389,33 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#157#225#0" expanded="false" />
-            <element signature="e#263#423#0" expanded="false" />
-            <element signature="e#468#670#0" expanded="false" />
-            <element signature="e#715#911#0" expanded="false" />
-            <element signature="e#1343#1369#0" expanded="false" />
+            <element signature="e#336#484#0" expanded="false" />
+            <element signature="e#517#835#0" expanded="false" />
+            <element signature="e#876#1159#0" expanded="false" />
+            <element signature="e#1199#1494#0" expanded="false" />
+            <element signature="e#1540#2098#0" expanded="false" />
+            <element signature="e#2128#2361#0" expanded="false" />
+            <element signature="e#2386#2605#0" expanded="false" />
+            <element signature="e#2628#2718#0" expanded="false" />
+            <element signature="e#2765#3038#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Wordsearch.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20731707" vertical-offset="0" max-vertical-offset="816">
-          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.1904" vertical-offset="0" max-vertical-offset="625">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
           <folding>
-            <element signature="e#157#225#0" expanded="false" />
-            <element signature="e#263#423#0" expanded="false" />
-            <element signature="e#468#670#0" expanded="false" />
-            <element signature="e#715#911#0" expanded="false" />
-            <element signature="e#1343#1369#0" expanded="false" />
+            <element signature="e#336#484#0" expanded="false" />
+            <element signature="e#517#835#0" expanded="false" />
+            <element signature="e#876#1159#0" expanded="false" />
+            <element signature="e#1199#1494#0" expanded="false" />
+            <element signature="e#1540#2098#0" expanded="false" />
+            <element signature="e#2128#2361#0" expanded="false" />
+            <element signature="e#2386#2605#0" expanded="false" />
+            <element signature="e#2628#2718#0" expanded="false" />
+            <element signature="e#2765#3038#0" expanded="false" />
           </folding>
         </state>
       </provider>
