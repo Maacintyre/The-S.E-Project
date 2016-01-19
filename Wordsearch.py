@@ -1,5 +1,5 @@
 ##This program will generate a randomized wordsearch with a list of words to be found
-__author__ = 'Pete Lozano' , 'Karla Martinez' , 'Adam Seevers'
+__author__ = 'Pete Lozano'
 from random import randint
 
 #This is a predetermined list to be inserted into a wordsearch
