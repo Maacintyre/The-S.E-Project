@@ -53,7 +53,9 @@ def insertWord(table, U, V, H, Word):
 def insertList(Wordsearch, WordList, X, Y):
 #This function will insert a list of words into a table based on a random number generator
 #This function will ensure each word is placed in bounds and do not overlap
+#Further more this function will add the word to a dictionary as a key and the coordinates of its first letter as the values
     Valid = False
+    coordDictList = {}
 
     for Word in WordList:
         L = len(Word)
@@ -63,7 +65,9 @@ def insertList(Wordsearch, WordList, X, Y):
             Valid = validSelection(Wordsearch, coordX, coordY, Horizontal, L)
             if Valid:
                 insertWord(Wordsearch, coordX , coordY , Horizontal, Word)
+                coordDictList[Word] = coordX, coordY
         Valid = False
+    return coordDictList
 
 def fillTable(table, U, V):
 #This function fills all blank spaces with a random character
@@ -90,14 +94,47 @@ def format(element):
 
 def createWordsearch(Wordlist, lenX, lenY ):
 #This function will randomly generate a word search based on a list of words and the size of the desired grid
+#This function will also generate the solution for the wordsearch at creation
     table = []
 
     initializeTable(table, (lenX + 1), (lenY + 1))
 
-    insertList(table, Wordlist, lenX, lenY)
+    winningList = insertList(table, Wordlist, lenX, lenY)
 
     fillTable(table, lenX, lenY)
 
-    return table
+    return table, winningList
 
-printTable(createWordsearch(Wordlist, X, Y))
+def playGame(Words, xSize, ySize):
+#This function will allow the user to play one wordsearch
+    gameOver = False
+    wordBoard, winWordCords = createWordsearch(Wordlist, X, Y)
+
+    while not gameOver:
+        printTable(wordBoard)
+        row, column = playerTurn()
+        winWordCords = calculateTurn(winWordCords, row, column)
+
+        if len(winWordCords) == 0:
+            gameOver = True
+            print("Game Over")
+
+def playerTurn():
+#This function will get the user's input in row and column variables
+#This function will also add 1 to the row and column variable for user friendliness
+    userInput = input("Enter the column: ")
+    UserX = int(userInput) + 1
+    userInput = input("Enter the row: ")
+    UserY = int(userInput) + 1
+    return UserX, UserY
+
+def calculateTurn(wordDict, UserX, UserY):
+#This function will determine if the user's choice was the start of a word
+    for key in wordDict:
+        X, Y = wordDict[key]
+        if (X == UserX) and (Y == UserY):
+            wordDict.pop(key)
+            return wordDict
+
+playGame(Wordlist, X, Y)
+
