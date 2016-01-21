@@ -121,11 +121,11 @@ def playGame(Words, xSize, ySize):
 
 def playerTurn():
 #This function will get the user's input in row and column variables
-#This function will also add 1 to the row and column variable for user friendliness
+#This function will also subtract 1 from the row and column variable for user friendliness
     userInput = input("Enter the column: ")
-    UserX = int(userInput) + 1
+    UserX = (int(userInput) - 1)
     userInput = input("Enter the row: ")
-    UserY = int(userInput) + 1
+    UserY = (int(userInput) - 1)
     return UserX, UserY
 
 def calculateTurn(wordDict, UserX, UserY):
@@ -133,7 +133,10 @@ def calculateTurn(wordDict, UserX, UserY):
     for key in wordDict:
         X, Y = wordDict[key]
         if (X == UserX) and (Y == UserY):
+            print("Found a word")
             wordDict.pop(key)
+            return wordDict
+        else:
             return wordDict
 
 playGame(Wordlist, X, Y)
